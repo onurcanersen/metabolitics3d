@@ -20,7 +20,7 @@ Analysis
 Preprocessing
 --------------
 		   
-.. automodule:: metabolitics.preprocessing
+.. automodule:: metabolitics3d.preprocessing
                 :members:
                 :undoc-members:
                 :show-inheritance:
@@ -36,7 +36,7 @@ Utils
 Extensions
 -----------
 
-.. automodule:: metabolitics.extensions
+.. automodule:: metabolitics3d.extensions
                 :members:
                 :undoc-members:
                 :show-inheritance:

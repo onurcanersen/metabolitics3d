@@ -1,7 +1,7 @@
 from sklearn.base import TransformerMixin
 from sklearn_utils.utils import average_by_label
 
-from metabolitics.utils import load_network_model
+from metabolitics3d.utils import load_network_model
 
 
 class ReactionDiffTransformer(TransformerMixin):

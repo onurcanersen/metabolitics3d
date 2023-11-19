@@ -2,8 +2,8 @@ import cobra as cb
 from functional import seq
 from sklearn_utils.preprocessing import FunctionalEnrichmentAnalysis
 
-import metabolitics.extensions
-from metabolitics.utils import load_network_model
+import metabolitics3d.extensions
+from metabolitics3d.utils import load_network_model
 
 
 class PathwayReactionEnrichment(FunctionalEnrichmentAnalysis):

@@ -4,8 +4,8 @@ from sklearn.feature_selection import VarianceThreshold, SelectKBest
 from sklearn.pipeline import Pipeline
 from sklearn_utils.preprocessing import *
 
-from metabolitics.preprocessing import *
-from metabolitics.utils import load_metabolite_mapping
+from metabolitics3d.preprocessing import *
+from metabolitics3d.utils import load_metabolite_mapping
 
 
 class MetaboliticsPipeline(DynamicPipeline):

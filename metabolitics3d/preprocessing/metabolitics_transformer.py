@@ -1,7 +1,7 @@
 from joblib import Parallel, delayed
 from sklearn.base import TransformerMixin
 
-from metabolitics.analysis import MetaboliticsAnalysis
+from metabolitics3d.analysis import MetaboliticsAnalysis
 
 
 class MetaboliticsTransformer(TransformerMixin):

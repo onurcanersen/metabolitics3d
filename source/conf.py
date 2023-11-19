@@ -136,15 +136,15 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'metabolitics.tex', 'metabolitics Documentation',
-     'Muhammed Hasan Celik', 'manual'),
+    (master_doc, 'metabolitics3d.tex', 'metabolitics3d Documentation',
+     'Onurcan Ersen', 'manual'),
 ]
 
 # -- Options for manual page output ---------------------------------------
 
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
-man_pages = [(master_doc, 'metabolitics', 'metabolitics Documentation',
+man_pages = [(master_doc, 'metabolitics', 'metabolitics3d Documentation',
               [author], 1)]
 
 # -- Options for Texinfo output -------------------------------------------
@@ -153,8 +153,8 @@ man_pages = [(master_doc, 'metabolitics', 'metabolitics Documentation',
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'metabolitics', 'metabolitics Documentation', author,
-     'metabolitics', 'One line description of project.', 'Miscellaneous'),
+    (master_doc, 'metabolitics3d', 'metabolitics3d Documentation', author,
+     'metabolitics3d', 'One line description of project.', 'Miscellaneous'),
 ]
 
 

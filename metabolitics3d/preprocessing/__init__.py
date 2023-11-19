@@ -1,5 +1,5 @@
 '''
-This module provides sklearn preprocessing interface for metabolitics.
+This module provides sklearn preprocessing interface for metabolitics3d.
 '''
 
 from .transport_pathway_elimination import TransportPathwayElimination

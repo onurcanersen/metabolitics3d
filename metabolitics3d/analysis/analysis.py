@@ -4,8 +4,8 @@ from sympy.core.singleton import S
 from cobra.util import fix_objective_as_constraint
 from cobra.flux_analysis import flux_variability_analysis
 
-import metabolitics.extensions
-from metabolitics.utils import load_network_model
+import metabolitics3d.extensions
+from metabolitics3d.utils import load_network_model
 
 
 class MetaboliticsAnalysis:

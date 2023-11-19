@@ -3,7 +3,7 @@ from collections import defaultdict
 from sklearn.base import TransformerMixin
 from sklearn_utils.preprocessing import FeatureMerger
 
-from metabolitics.utils import load_network_model
+from metabolitics3d.utils import load_network_model
 
 
 class PathwayTransformer(FeatureMerger):
