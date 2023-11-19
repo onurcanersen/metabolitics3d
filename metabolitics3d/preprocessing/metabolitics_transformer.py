@@ -8,7 +8,7 @@ class MetaboliticsTransformer(TransformerMixin):
     """Performs metabolitics analysis and 
     convert metabolitic value into reaction min-max values."""
 
-    def __init__(self, network_model="recon2", n_jobs=-1):
+    def __init__(self, network_model="recon3D", n_jobs=-1):
         '''
         :param network_model: cobra.Model or name of the model. 
         :param n_jobs: the maximum number of concurrently running jobs.

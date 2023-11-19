@@ -17,7 +17,7 @@ def load_network_model(model):
     if type(model) == str:
         if model in ['ecoli', 'textbook', 'salmonella']:
             return cb.test.create_test_model(model)
-        elif model == 'recon2':
+        elif model == 'recon3D':
             return cb.io.load_json_model('%s/network_models/%s.json' %
                                          (DATASET_PATH, model))
     if type(model) == cb.Model:

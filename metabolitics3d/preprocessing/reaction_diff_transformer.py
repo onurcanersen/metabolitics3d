@@ -7,7 +7,7 @@ from metabolitics.utils import load_network_model
 class ReactionDiffTransformer(TransformerMixin):
     """Scaler reaction by diff"""
 
-    def __init__(self, network_model="recon2", reference_label='healthy'):
+    def __init__(self, network_model="recon3D", reference_label='healthy'):
         self.model = load_network_model(network_model)
         self.reference_label = reference_label
 

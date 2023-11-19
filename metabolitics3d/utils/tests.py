@@ -14,9 +14,9 @@ class TestIOUtils(unittest.TestCase):
         textbook = load_network_model('textbook')
         self.assertEqual(textbook.id, 'e_coli_core')
 
-        recon2 = load_network_model('recon2')
-        self.assertGreater(len(recon2.reactions), 1000)
-        self.assertGreater(len(recon2.metabolites), 1000)
+        recon3D = load_network_model('recon3D')
+        self.assertGreater(len(recon3D.reactions), 1000)
+        self.assertGreater(len(recon3D.metabolites), 1000)
 
     def test_load_naming(self):
         for i in {'kegg', 'pubChem', 'cheBl', 'hmdb', 'toy'}:

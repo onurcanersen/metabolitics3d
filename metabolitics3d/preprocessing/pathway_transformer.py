@@ -9,7 +9,7 @@ from metabolitics.utils import load_network_model
 class PathwayTransformer(FeatureMerger):
     """Converts reaction level features to pathway level."""
 
-    def __init__(self, network_model="recon2", metrics='mean'):
+    def __init__(self, network_model="recon3D", metrics='mean'):
         model = load_network_model(network_model)
         features = defaultdict(list)
 

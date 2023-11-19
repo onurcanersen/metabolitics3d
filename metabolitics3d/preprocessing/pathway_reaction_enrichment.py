@@ -11,7 +11,7 @@ class PathwayReactionEnrichment(FunctionalEnrichmentAnalysis):
 
     def __init__(self,
                  reference_label='healthy',
-                 network_model='recon2',
+                 network_model='recon3D',
                  **kwargs):
         '''
         :param str reference_label: label of refence values in the calculation
